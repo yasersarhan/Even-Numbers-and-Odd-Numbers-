@@ -21,3 +21,11 @@ class Numbers:
                 continue
             else:
                 print(x)    
+
+    def odd_number(self):
+        num = int(input('Please enter your number: '))
+        for x in range(0 , num+1):
+            if x % 2 == 0:
+                continue
+            else:
+                print(x)
