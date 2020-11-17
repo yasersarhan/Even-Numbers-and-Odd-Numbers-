@@ -13,3 +13,11 @@ class Numbers:
             self.odd_number()
         else:
             print('Please enter a valid number')
+
+    def even_number(self):
+        num = int(input('Please enter your number: '))
+        for x in range(0 , num+1):
+            if x % 2 == 1:
+                continue
+            else:
+                print(x)    
