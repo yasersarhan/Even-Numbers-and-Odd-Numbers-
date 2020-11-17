@@ -29,3 +29,4 @@ class Numbers:
                 continue
             else:
                 print(x)
+g = Numbers()
